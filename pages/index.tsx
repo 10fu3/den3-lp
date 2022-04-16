@@ -73,13 +73,20 @@ const FirstContent = ()=>{
                         <Center>仲間に</Center>
                         <Center>あなたもなりませんか?</Center>
                     </Box>
-                    <Box>
+                    <Flex justifyContent="center" p={8} flexWrap="wrap">
                         <chakra.p>
-                            電子計算機研究会は、情報系の技術に興味を持った
-                            <br/>
-                            芝浦工業大学の学生が運営する大学公認サークルです
+                            電子計算機研究会は
                         </chakra.p>
-                    </Box>
+                        <chakra.p>
+                            情報系の技術に興味を持った
+                        </chakra.p>
+                        <chakra.p>
+                            芝浦工業大学の学生が運営する
+                        </chakra.p>
+                        <chakra.p>
+                            大学公認サークルです
+                        </chakra.p>
+                    </Flex>
                     <Center pt={8}>
                         <a target="_blank" rel="noreferrer" href="http://den3.net">
                             <Button color="blue.500">
