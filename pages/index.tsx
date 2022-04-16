@@ -10,6 +10,7 @@ import {NextPage} from "next";
 import Page from "../component/Page";
 import React, {useEffect, useState} from "react";
 import { Link as Scroll } from 'react-scroll';
+import Head from "next/head";
 
 interface CircleInfo {
     zoom_info: string,
@@ -36,6 +37,14 @@ const Home:NextPage = ()=>{
     },[])
 
     return <Page>
+        <Head>
+            <title>den3 新歓ページ</title>
+            <link rel="icon" href="http://den3.net/wp-content/themes/den3HP/set/image/icon.png"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:url" content="http://den3.net"/>
+            <meta property="og:image" content="http://den3.net/wp-content/themes/den3HP/set/image/icon.png"/>
+            <meta name="description" content="芝浦工業大学公認サークル電子計算機研究会の新歓サイトです"/>
+        </Head>
         <FirstContent/>
         <SecondContent circleInfo={circleInfo}/>
         <ThirdContent circleInfo={circleInfo}/>
