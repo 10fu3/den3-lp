@@ -66,8 +66,8 @@ const Home:NextPage = ()=>{
 const FirstContent = ()=>{
     return <section>
         <Center pt={[0,0,10]} pb={[0,0,4]}>
-            <Center w="100%" maxW="800px" flexWrap="wrap-reverse">
-                <Box pt={8} pb={8}>
+            <Center maxW="800px" flexWrap="wrap-reverse">
+                <Box w={["100%","100%","50%"]} pt={8} pb={8}>
                     <Box pb={8} fontSize="30px">
                         <Center>プログラミングを楽しむ</Center>
                         <Center>仲間に</Center>
@@ -103,7 +103,7 @@ const FirstContent = ()=>{
                     </Center>
                 </Box>
                 <Center w={["100%","100%","50%"]} pl={[0,0,"100px"]}>
-                    <chakra.img w="100%" maxW={["300px","300px","100%"]} h="auto" src="human.png"/>
+                    <chakra.img w={["40%","50%","100%"]} maxW={["300px","300px","100%"]} h="auto" src="human.png"/>
                 </Center>
             </Center>
         </Center>
