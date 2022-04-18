@@ -1,3 +1,6 @@
+## 画像
+![](https://media.discordapp.net/attachments/965280577936838746/965284741647577188/Screenshot_2022-04-18_at_01-12-50_den3_.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
