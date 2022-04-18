@@ -41,7 +41,7 @@ const Home:NextPage = ()=>{
             <title>den3 新歓ページ</title>
             <link rel="icon" href="http://den3.net/wp-content/themes/den3HP/set/image/icon.png"/>
             <meta property="og:type" content="website"/>
-            <meta property="og:url" content="http://den3.net"/>
+            <meta property="og:url" content="https://welcome-den3.netlify.app/"/>
             <meta property="og:image" content="http://den3.net/wp-content/themes/den3HP/set/image/icon.png"/>
             <meta name="description" content="芝浦工業大学公認サークル電子計算機研究会の新歓サイトです"/>
         </Head>
